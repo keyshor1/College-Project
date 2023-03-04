@@ -1,0 +1,19 @@
+{% extends 'app/base.html' %}
+{% load static %}
+{% block title %}About{% endblock title %}
+
+
+
+{% block main-content %}
+
+<div class="card">
+    <img src="..." class="card-img-top" alt="...">
+    <img src="{% static "app/images/logo.png" %}" width="70" height="50" />
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+</div>
+
+{% endblock main-content %}
